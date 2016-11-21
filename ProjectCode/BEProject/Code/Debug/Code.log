@@ -1,0 +1,25 @@
+﻿Build started 5/2/2014 12:58:52 PM.
+     1>Project "C:\Users\Shalaka\Documents\Visual Studio 2013\Projects\Code\Code\Code.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /IC:\opencv\build\include /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt moving.cpp
+         moving.cpp
+     1>c:\users\shalaka\documents\visual studio 2013\projects\code\code\moving.cpp(250): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\shalaka\documents\visual studio 2013\projects\code\code\moving.cpp(326): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\shalaka\documents\visual studio 2013\projects\code\code\moving.cpp(327): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\shalaka\documents\visual studio 2013\projects\code\code\moving.cpp(333): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\shalaka\documents\visual studio 2013\projects\code\code\moving.cpp(133): warning C4101: 'numServices' : unreferenced local variable
+     1>c:\users\shalaka\documents\visual studio 2013\projects\code\code\moving.cpp(132): warning C4101: 'guidServices' : unreferenced local variable
+     1>c:\users\shalaka\documents\visual studio 2013\projects\code\code\moving.cpp(133): warning C4101: 'result' : unreferenced local variable
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Shalaka\Documents\Visual Studio 2013\Projects\Code\Debug\Code.exe" /INCREMENTAL /NOLOGO /LIBPATH:C:\opencv\build\x86\vc12\lib opencv_calib3d248d.lib opencv_contrib248d.lib opencv_core248d.lib opencv_features2d248d.lib opencv_flann248d.lib opencv_gpu248d.lib opencv_highgui248d.lib opencv_imgproc248d.lib opencv_legacy248d.lib opencv_ml248d.lib opencv_nonfree248d.lib opencv_objdetect248d.lib opencv_ocl248d.lib opencv_photo248d.lib opencv_stitching248d.lib opencv_superres248d.lib opencv_ts248d.lib opencv_video248d.lib opencv_videostab248d.lib Bthprops.lib ws2_32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Shalaka\Documents\Visual Studio 2013\Projects\Code\Debug\Code.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Shalaka\Documents\Visual Studio 2013\Projects\Code\Debug\Code.lib" /MACHINE:X86 Debug\Area.obj
+         Debug\final.obj
+         Debug\moving.obj
+         Debug\staticfinal.obj
+         Debug\staticfinaltest.obj
+         Debug\trackbar.obj
+         Code.vcxproj -> C:\Users\Shalaka\Documents\Visual Studio 2013\Projects\Code\Debug\Code.exe
+     1>Done Building Project "C:\Users\Shalaka\Documents\Visual Studio 2013\Projects\Code\Code\Code.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.46
